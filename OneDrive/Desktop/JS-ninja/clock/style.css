@@ -1,0 +1,120 @@
+body{
+    background: #121114;
+    box-sizing: inherit;
+    text-align: center;
+}
+
+h1{
+    margin: 40px auto;
+    color: #fff;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+/* .clock{
+    margin: 200px auto;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    padding: 30px;
+    color: limegreen;
+} */
+.clock-design{
+    max-width: 600px;
+    margin: 12% auto;
+}
+
+.botton{
+    width: 30%;
+    /* background: #3B4F50; */
+    background: #33112c;
+    height: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: auto;
+
+
+}
+.outer{
+    /* border: 20px solid #00A8B5; */
+    border: 20px solid #c70039;
+    border-radius: 5px;
+}
+
+.inner{
+    /* border: 10px solid #EDEAF0; */
+    border: 10px solid #ff5733;
+
+}
+.clock{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    padding: 30px;
+    color: limegreen;
+    /* background: #444; */
+    background: #33112c;
+}
+.clock span{
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .clock-design{
+        max-width: 300px;
+        font-size: 8px;
+        margin: 100px auto;
+    }
+
+    .clock{
+        padding: 20px;
+    }
+    .clock span{
+        padding: 5px;
+    }
+
+    .botton{
+        height: 10px;
+    }
+}
+
+.bottom-line{
+    /* background: #DFC0C8; */
+    background: #ff5733;
+    height: 20px;
+    width: 90%;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.box-right{
+    /* background: #3B4F50; */
+    background: #33112c;
+    width: 20%;
+    height: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box-left{
+    /* background: #3B4F50; */
+    background: #33112c;
+    width: 20%;
+    height: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+

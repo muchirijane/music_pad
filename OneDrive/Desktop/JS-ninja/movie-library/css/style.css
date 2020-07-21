@@ -1,0 +1,19 @@
+.well img{
+    width: 100%;
+}
+
+@media(min-width: 960px){
+    .card img{
+        height: 240px;
+        margin-top: 1rem;
+    }
+
+    .well{
+        height: 390px;
+    }
+
+
+}
+.card{
+    margin: 1rem;
+}

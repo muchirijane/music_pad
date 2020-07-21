@@ -1,0 +1,45 @@
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px 0;
+    background: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/* li{
+    list-style: none;
+    max-width: 300px;
+    padding: 8px;
+    margin: 10px auto;
+    background: #eee;
+    border: 1px solid #ddd;
+    font-size: 30px;
+} */
+
+
+/* .error{
+    padding: 20px;
+    color: crimson;
+    border: 3px dotted crimson;
+    font-size: 40px;
+}
+
+.success{
+    padding: 20px;
+    color: limegreen;
+    border: 3px dotted limegreen;
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+} */
